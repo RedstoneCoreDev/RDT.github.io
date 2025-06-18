@@ -1,0 +1,53 @@
+html, body {
+  margin: 125px;
+  padding: 0;
+  height: 100%;
+  font-family: system-ui, sans-serif;
+  background: black;
+  color: white;
+  z-index: 1;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.footertext {
+  border-color: #ff0000;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+h1, h2 {
+  color: #f0f0f0;
+}
+
+a {
+  color: #66ccff;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+}
